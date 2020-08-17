@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <title>Polls index</title>
   </head>
+  {% load static %}
+
+  <link rel="stylesheet" types="text/css" href="{% static 'polls/style.css' %}">
   <body>
     {% if latest_question_list %}
         <ul>
